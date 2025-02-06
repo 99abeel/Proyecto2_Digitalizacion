@@ -5,14 +5,6 @@ La Calculadora de Presupuesto Personal es una aplicación que ayuda a los usuari
 
 ---
 
-## Tecnologías Utilizadas
-- **Lenguaje:** Python 
-- **Interfaz Gráfica:** Tkinter o PyQt
-- **Base de Datos:** SQLite (para almacenamiento de registros)
-- **Gráficos:** Matplotlib o Seaborn para visualización de datos
-
----
-
 ## Características Principales
 - Registro de ingresos y gastos con descripciones y categorías.  
 - Cálculo automático del saldo disponible.  
