@@ -1,5 +1,5 @@
 # Preguntas
-### Ciclo de vida del dato (5b):
+## Ciclo de vida del dato (5b):
 #### ¿Cómo se gestionan los datos desde su generación hasta su eliminación en tu proyecto?
 Se generan cuando el usuario registra una transacción (ingreso o gasto). Se almacenan en una base de datos SQLite y se usan para calcular el saldo o mostrar gráficos. No hay eliminación automática, pero se podrían borrar manualmente.
 
@@ -9,7 +9,7 @@ Uso claves primarias en la base de datos para evitar duplicados y validaciones e
 #### Si no trabajas con datos, ¿cómo podrías incluir una funcionalidad que los gestione de forma eficiente?
 Podría añadir una función para exportar los datos a Excel o conectarse a una API que analice los gastos e ingresos automáticamente.
 
-### Almacenamiento en la nube (5f):
+## Almacenamiento en la nube (5f):
 #### Si tu software utiliza almacenamiento en la nube, ¿cómo garantizas la seguridad y disponibilidad de los datos?
 No uso la nube, pero si la integrara, usaría servicios como Firebase con cifrado de datos y backups periódicos para garantizar seguridad y disponibilidad.
 
@@ -19,7 +19,7 @@ Elegí SQLite porque es sencilla, no necesita servidor y es compatible con Pytho
 #### Si no usas la nube, ¿cómo podrías integrarla en futuras versiones?
 Podría migrar la base de datos a Firebase o AWS para que los usuarios accedan a sus datos desde cualquier dispositivo.
 
-### Seguridad y regulación (5i):
+## Seguridad y regulación (5i):
 #### ¿Qué medidas de seguridad implementaste para proteger los datos o procesos en tu proyecto?
 Validación de datos para evitar entradas incorrectas y uso de SQLite, que es una base de datos local y segura.
 
@@ -29,7 +29,7 @@ Si se almacenaran datos personales, el GDPR exigiría protegerlos. Por ahora, no
 #### Si no implementaste medidas de seguridad, ¿qué riesgos potenciales identificas y cómo los abordarías en el futuro?
 Riesgo: Pérdida de datos. Solución: Implementar backups automáticos y cifrado de la base de datos.
 
-### Implicación de las THD en negocio y planta (2e):
+## Implicación de las THD en negocio y planta (2e):
 #### ¿Qué impacto tendría tu software en un entorno de negocio o en una planta industrial?
 Ayudaría a gestionar los gastos e ingresos de pequeñas empresas o proyectos, mejorando el control financiero.
 
@@ -39,7 +39,7 @@ Automatizaría el cálculo de presupuestos y proporcionaría informes claros par
 #### Si tu proyecto no aplica directamente a negocio o planta, ¿qué otros entornos podrían beneficiarse?
 Hogares, estudiantes o cualquier persona que quiera gestionar sus finanzas personales de forma sencilla.
 
-### Mejoras en IT y OT (2f):
+## Mejoras en IT y OT (2f):
 #### ¿Cómo puede tu software facilitar la integración entre entornos IT y OT?
 No aplica directamente, pero podría usarse para monitorear gastos en infraestructura tecnológica o proyectos industriales.
 
@@ -49,7 +49,7 @@ Automatizaría el registro de gastos y la generación de informes financieros, a
 #### Si no aplica a IT u OT, ¿cómo podrías adaptarlo para mejorar procesos tecnológicos concretos?
 Podría integrarse con sistemas de gestión empresarial para analizar costes y optimizar presupuestos en proyectos tecnológicos.
 
-### Tecnologías Habilitadoras Digitales (2g):
+## Tecnologías Habilitadoras Digitales (2g):
 #### ¿Qué tecnologías habilitadoras digitales (THD) has utilizado o podrías integrar en tu proyecto?
 He usado SQLite (almacenamiento) y Tkinter (interfaz gráfica). Podría integrar Firebase para la nube o IA para predicciones financieras.
 
