@@ -3,7 +3,7 @@
 ##### ¿Cómo se gestionan los datos desde su generación hasta su eliminación en tu proyecto?
 Se generan cuando el usuario registra una transacción (ingreso o gasto). Se almacenan en una base de datos SQLite y se usan para calcular el saldo o mostrar gráficos. No hay eliminación automática, pero se podrían borrar manualmente.
 
-##### ¿Qué estrategia sigues para garantizar la consistencia e integridad de los datos?
+#### ¿Qué estrategia sigues para garantizar la consistencia e integridad de los datos?
 Uso claves primarias en la base de datos para evitar duplicados y validaciones en el código para asegurar que los datos sean correctos (por ejemplo, que el monto sea un número). 
 
 Si no trabajas con datos, ¿cómo podrías incluir una funcionalidad que los gestione de forma eficiente?
