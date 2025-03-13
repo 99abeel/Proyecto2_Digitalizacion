@@ -1,11 +1,11 @@
 # Calculadora de Presupuesto Personal
 
 ## Descripción
-La Calculadora de Presupuesto Personal es una aplicación que ayuda a los usuarios a gestionar sus finanzas de manera sencilla. Permite registrar ingresos y gastos, calcular el saldo mensual disponible y visualizar los datos mediante gráficos intuitivos. 
+La Calculadora de Presupuesto Personal es una aplicación que ayuda a los usuarios a gestionar sus finanzas de manera sencilla. Permite registrar ingresos y gastos y calcular el saldo mensual disponible. 
 
 ---
 
-## Características Principales
+## Características principales
 - Registro de ingresos y gastos con descripciones y categorías:
     - Permite registrar transacciones (ingresos o gastos) con una descripción y categoría personalizada.
     - Los datos se ingresan en una interfaz gráfica sencilla.
@@ -23,7 +23,7 @@ La Calculadora de Presupuesto Personal es una aplicación que ayuda a los usuari
     - Incluye campos de entrada, botones y etiquetas claras.
 
 ---
-## Codigo del script
+## Código del Script
 ```python
 import tkinter as tk
 from tkinter import messagebox, ttk
@@ -127,9 +127,9 @@ root.mainloop()
 ```
 Instrucciones para ejectuar el codigo:
 - Abrir Visual Studio Code
-- Guardar el archivo con al extension ```python .py ``` con el nombre que prefieras.
+- Guardar el archivo con al extension ```.py ``` con el nombre que prefieras.
 - Abrir CMD y navegar hasta la carpeta donde guardaste el archivo
-- Ejectuar el script con Python usando el siguiente comando: ```python python calculadora_presupuesto.py```
+- Ejectuar el script con Python usando el siguiente comando: ```python calculadora_presupuesto.py```
 - Por ultimo se abrirá una ventana con la interfaz gráfica de la calculadora de presupuesto donde puedes registrar ingresos y gastos, y verás cómo se actualiza el saldo disponible.
 
 Algunos de los requisitos para usarlo son:
