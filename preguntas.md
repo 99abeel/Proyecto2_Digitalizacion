@@ -1,4 +1,4 @@
-## Preguntas
+# Preguntas
 ### Ciclo de vida del dato (5b):
 ¿Cómo se gestionan los datos desde su generación hasta su eliminación en tu proyecto?
 Se generan cuando el usuario registra una transacción (ingreso o gasto). Se almacenan en una base de datos SQLite y se usan para calcular el saldo o mostrar gráficos. No hay eliminación automática, pero se podrían borrar manualmente.
