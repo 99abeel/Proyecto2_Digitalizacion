@@ -3,7 +3,22 @@
 ## Descripción
 La Calculadora de Presupuesto Personal es una aplicación que ayuda a los usuarios a gestionar sus finanzas de manera sencilla. Permite registrar ingresos y gastos y calcular el saldo mensual disponible. 
 
----
+# Why This Project?
+
+**Problem**:  
+Most budgeting tools are either too complex or privacy-invasive.
+
+**Solution**:  
+✅ **Simple** Tkinter GUI  
+✅ **Private** local SQLite storage  
+✅ **Educational** financial visibility  
+
+**Impact**:  
+- Helps users avoid overdrafts  
+- Teaches budgeting fundamentals  
+- 100% offline & lightweight  
+
+--- 
 
 ## Características principales
 - Registro de ingresos y gastos con descripciones y categorías:
