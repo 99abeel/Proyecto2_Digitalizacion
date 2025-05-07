@@ -1,7 +1,7 @@
 # Calculadora de Presupuesto Personal
 
-## Descripción
-La Calculadora de Presupuesto Personal es una aplicación que ayuda a los usuarios a gestionar sus finanzas de manera sencilla. Permite registrar ingresos y gastos y calcular el saldo mensual disponible. 
+## Description
+The Personal Budget Calculator is an application that helps users manage their finances easily. It allows recording income and expenses and calculates the monthly available balance. 
 
 # Why This Project?
 
@@ -20,22 +20,22 @@ Most budgeting tools are either too complex or privacy-invasive.
 
 --- 
 
-## Características principales
-- Registro de ingresos y gastos con descripciones y categorías:
-    - Permite registrar transacciones (ingresos o gastos) con una descripción y categoría personalizada.
-    - Los datos se ingresan en una interfaz gráfica sencilla.
+## Main Features
+- Income and expense recording with descriptions and categories:
+    - Allows recording transactions (income or expenses) with a description and custom category.
+    - Data is entered through a simple graphical interface.
 
-- Cálculo automático del saldo disponible:
-    - Calcula el saldo en tiempo real restando los gastos totales a los ingresos totales.
-    - Muestra el saldo actualizado en la interfaz.
+- Automatic available balance calculation:
+    - Calculates the balance in real time by subtracting total expenses from total income.
+    - Displays the updated balance in the interface.
 
-- Almacenamiento en base de datos SQLite:
-    - Guarda todas las transacciones en una base de datos local (finanzas.db).
-    - Permite consultar y analizar el historial financiero.
+- SQLite database storage:
+    - Saves all transactions in a local database (finanzas.db).
+    - Allows querying and analyzing financial history.
 
-- Interfaz gráfica amigable (Tkinter):
-    - Usa tkinter para crear una interfaz gráfica fácil de usar.
-    - Incluye campos de entrada, botones y etiquetas claras.
+- User-friendly graphical interface (Tkinter):
+    - Uses Tkinter to create an easy-to-use graphical interface.
+    - Includes input fields, buttons, and clear labels.
 
 ---
 ## Código del Script
@@ -140,21 +140,21 @@ crear_base_datos()
 actualizar_saldo()
 root.mainloop()
 ```
-Instrucciones para ejectuar el codigo:
-- Abrir Visual Studio Code
-- Guardar el archivo con al extension ```.py ``` con el nombre que prefieras.
-- Abrir CMD y navegar hasta la carpeta donde guardaste el archivo
-- Ejectuar el script con Python usando el siguiente comando: ```python calculadora_presupuesto.py```
-- Por ultimo se abrirá una ventana con la interfaz gráfica de la calculadora de presupuesto donde puedes registrar ingresos y gastos, y verás cómo se actualiza el saldo disponible.
+Instructions to run the code:
+- Open Visual Studio Code
+- Save the file with the ```.py``` extension with your preferred name.
+- Open CMD and navigate to the folder where you saved the file.
+- Run the script with Python using the following command: ```python calculadora_presupuesto.py```
+- Finally, a window will open with the budget calculator's graphical interface where you can record income and expenses, and you'll see how the available balance updates.
 
-Algunos de los requisitos para usarlo son:
-- Python 3.x: Asegúrate de tener Python instalado.
-- Tkinter: Viene incluido con Python, no necesitas instalarlo por separado.
-- SQLite: También viene incluido con Python.
+Some of the requirements to use it are:
+- Python 3.x: Make sure you have Python installed.
+- Tkinter: Comes included with Python, you don't need to install it separately.
+- SQLite: Also comes included with Python.
 
-Un ejemplo de uso:
-1. Abre la aplicación.
-2. Selecciona el tipo de transacción (Ingreso o Gasto).
-3. Ingresa la categoría, descripción y monto.
-4. Haz clic en "Agregar Transacción".
-5. Verás cómo se actualiza el saldo disponible en la parte inferior.
+An example of use:
+1. Open the application.
+2. Select the transaction type (Income or Expense).
+3. Enter the category, description, and amount.
+4. Click "Agregar Transacción" (Add Transaction).
+5. You'll see how the available balance updates at the bottom.
